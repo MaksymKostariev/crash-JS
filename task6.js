@@ -1,6 +1,6 @@
 // Write a JavaScript program to determine whether a given year is a leap year in the Gregorian calendar.
 
-let year = 2000;
+let year = 2004;
 
 function leapyear(year)
 {
@@ -10,12 +10,12 @@ function leapyear(year)
 
 // other way
 
-function leapyear(year)
-{
-return (year % 100 === 0) ? (year % 400 === 0) : (year % 4 === 0);
-}
-console.log(leapyear(2016));
-console.log(leapyear(2000));
-console.log(leapyear(1700));
-console.log(leapyear(1800));
-console.log(leapyear(100));
+// function leapyear(year)
+// {
+// return (year % 100 === 0) ? (year % 400 === 0) : (year % 4 === 0);
+// }
+// console.log(leapyear(2016));
+// console.log(leapyear(2000));
+// console.log(leapyear(1700));
+// console.log(leapyear(1800));
+// console.log(leapyear(100));
