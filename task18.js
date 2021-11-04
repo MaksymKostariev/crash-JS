@@ -1,22 +1,14 @@
-function compare(a, b)
-{
+function compare(a, b) {
     // let s = a + b;
-    if (a === 50)
-    {
+    if (a === 50) {
         return "True";
-    }
-    else if (b === 50)
-    {
+    } else if (b === 50) {
         return "True";
-    }
-    else if (a + b === 50)
-    {
+      } else if (a + b === 50) {
         return "True";
-    }
-    else
-    {
-        return "False";
-    }
+        } else {
+          return "False";
+          }
 }
 console.log(compare(25,45));
 console.log(compare(50,75));

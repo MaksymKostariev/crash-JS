@@ -4,7 +4,7 @@ let year = 2004;
 
 function leapyear(year)
 {
-    return (year % 100 === 0)? (year % 400 === 0) : (year % 4 === 0 );
+    return (year % 100 === 0) ? (year % 400 === 0) : (year % 4 === 0 );
 }
 ((leapyear(year)) == true) ? (console.log (year, " is a leapyear.")) : (console.log (year, " is not a leapyear."));
 
