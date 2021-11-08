@@ -14,7 +14,7 @@ let second = today.getMinutes();
 let prepand = (hour >= 12)? "PM" : "AM";
 
 hour = (hour >= 12)? hour -  12 : hour;
-if (hour ===0 && prepand==='PM') {
+if (hour === 0 && prepand === 'PM') {
   if  (minute === 0 && second ===0 ){
     hour = 12;
     prepand = 'Noon';
