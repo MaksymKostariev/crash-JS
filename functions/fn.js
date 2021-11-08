@@ -22,3 +22,10 @@ const sqrt = function (a){
 }
 console.log("Function expression is ", sqrt(3));
 
+function makeDecision(makeFn) {
+   makeFn();
+}
+
+makeDecision(function() {
+  console.log("Let's dance");
+});
